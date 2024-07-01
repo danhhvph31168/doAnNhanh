@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../font-icon/themify-icons-font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="../../view/css/giohang.css">
+    <title>ct sản phẩm</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="dau">
+                <div class="logo">
+                    <img src="../img/logo/logo (1).png" alt="">
+                </div>
+                <form action="">
+                    <div class="kyw">
+                        <input type="text" placeholder="Tìm kiếm tại đây">
+                    </div>
+                    <div class="tk">
+                        <button class="ti-search"> Tìm kiếm</button>
+                    </div>
+                </form>
+                <div class="icon">
+                    <ul>
+                        <li class="gh mb10"><a href="giohang.html" class="ti-shopping-cart"> Giỏ hàng</a></li>
+                        <li class="dn mb10"><a class="ti-user"></a>
+                            <ul>
+                                <li><a href="#">Đăng nhập</a></li>
+                                <li><a href="#">Đăng ký</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mau">
+                <div class="menu">
+                    <ul>
+                        <li><a href="trangchu.html">Trang chủ</a></li>
+                        <li><a href="sanpham.html">Sản phẩm</a></li>
+                        <li><a href="#">Tin tức</a></li>
+                        <li><a href="#">Liên hệ</a></li>
+                        <li><a href="#">Giới thiệu</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main class="mainct">
+            <div class="ctsp">
+                <div class="anhct">
+                    <img src="../img/sanpham/monan1.png" alt="">
+                </div>
+                <div class="textct">
+                    <div class="texttop">
+                        <h3>Cánh gà te chiên mỡ hành</h3>
+                        <p>
+                            Vịt quay Bắc Kinh là món ăn yêu thích của nhiều người Việt Nam,
+                            là món đổi vị trong bữa ăn gia đình. Đây là món đặc sản nổi tiếng của
+                            nước bạn, rất nhiều nước yêu thích, bởi vị thơm hợp khẩu
+                            vị của nhiều người
+                        </p>
+                        <p class="dcct">Tình trạng : 24/24h</p>
+                    </div>
+                    <hr class="thanhngangct">
+                    <div class="sizect">
+                        <p>Size</p>
+                        <div class="chonsize">
+                            <input type="radio" value="1">
+                            <input type="radio" value="1">
+                            <input type="radio" value="1">
+                        </div>
+                    </div>
+                    <div class="giact">
+                        <p>Giá sản phẩm</p>
+                        <p>
+                            <span>65.000đ</span>
+                        </p>
+                    </div>
+                    <div class="soluongct">
+                        <p>Số lượng</p>
+                        <div class="chucnangsl">
+                            <button id="decrease" class="decrease sz">-</button>
+                            <input type="number" id="quantity" class="number" value="0" readonly>
+                            <button id="increase" class="increase sz">+</button>
+                        </div>
+                    </div>
+                    <div class="buttonct">
+                        <button class="muangayct">MUA NGAY</button><br><br>
+                        <button class="addghct">THÊM GIỎ HÀNG</button>
+                    </div>
+                </div>
+                <!-- thanh tư vấn -->
+                <div class="tuvanct">
+                    <div class="intuvan">
+                        <p>TƯ VẤN BÁN HÀNG</p>
+                        <hr>
+                        <div class="anhtuvan">
+                            <img src="../img/logo/icontv-removebg-preview.png" alt="">
+                            <div class="anhtuvan-p">
+                                <p>0987.654.321
+                                    0987.654.321</p>
+                            </div>
+                        </div>
+                        <p style="font-size: 15px;text-align: center;">(Từ 8h00 Thứ 2 đến Chủ nhật 21h )</p>
+                        <div class="anhtuvan">
+                            <img src="../img/logo/iconxm-removebg-preview.png" alt="">
+                            <div class="anhtuvan-p">
+                                <p class="anhtuvan_pduoi">Giao hàng tận nơi</p>
+                            </div>
+                        </div>
+                        <div class="anhtuvan">
+                            <img src="../img/logo/xm2.png" alt="">
+                            <div class="anhtuvan-p">
+                                <p class="anhtuvan_pduoi">Miễn phí giao hàng đối với đơn hàng trên 500k</p>
+                            </div>
+                        </div>
+                        <div class="anhtuvan">
+                            <img src="../img/logo/iconvt-removebg-preview.png" alt="">
+                            <div class="anhtuvan-p">
+                                <p class="anhtuvan_pduoi">Mọi nơi đều có thể sử dụng</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bluan">
+                <div class="hienthibl">
+                    <table>
+                        <tr>
+                            <td style="width: 40px;"><img src="../img/logo/avt.png" width="30px"></td>
+                            <td>Danh</td>
+                            <td>Nội dung</td>
+                            <td>Ngày bình luận</td>
+                        </tr>
+                    </table>
+                </div>
+                <form action="" method="post">
+                    <input type="text" name="bl" placeholder="Viết bình luận..." required>
+                    <button name="okbl">Đăng</button>
+                </form>
+            </div>
+            <div class="sale">
+                <div class="tieude">
+                    <h3 style="text-align: center;">Sản phẩm liên quan</h3>
+                </div>
+                <div class="listpost">
+                    <div class="post">
+                        <img src="../img/sanpham/monan1.png" alt="">
+                        <div class="chupost">
+                            <p>Cánh gà te chiên mỡ hành</p>
+                            <p class="">
+                                <span>65.000đ</span>
+                                <span class="sale-product giacu">80.000đ</span>
+                            </p>
+                            <div class="nutcart">
+                                <a href="#">Thêm giỏ hàng
+                                    <i class="icongh ti-shopping-cart"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="post">
+                        <img src="../img/sanpham/monan1.png" alt="">
+                        <div class="chupost">
+                            <p>Cánh gà te chiên mỡ hành</p>
+                            <p>
+                                <span>65.000đ</span>
+                                <span class="sale-product giacu">80.000đ</span>
+                            </p>
+                            <div class="nutcart">
+                                <a href="#">Thêm giỏ hàng
+                                    <i class="icongh ti-shopping-cart"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="post">
+                        <img src="../img/sanpham/monan1.png" alt="">
+                        <div class="chupost">
+                            <p>Cánh gà te chiên mỡ hành</p>
+                            <p>
+                                <span>65.000đ</span>
+                                <span class="sale-product giacu">80.000đ</span>
+                            </p>
+                            <div class="nutcart">
+                                <a href="#">Thêm giỏ hàng
+                                    <i class="icongh ti-shopping-cart"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="post">
+                        <img src="../img/sanpham/monan1.png" alt="">
+                        <div class="chupost">
+                            <p>Cánh gà te chiên mỡ hành</p>
+                            <p class="">
+                                <span>65.000đ</span>
+                                <span class="sale-product giacu">80.000đ</span>
+                            </p>
+                            <div class="nutcart">
+                                <a href="#">Thêm giỏ hàng
+                                    <i class="icongh ti-shopping-cart"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+</body>
+<script src="banner.js"></script>
+<script>
+    // Lấy ra các phần tử DOM
+    const decreaseButton = document.getElementById('decrease');
+    const increaseButton = document.getElementById('increase');
+    const quantityInput = document.getElementById('quantity');
+
+    // Xử lý sự kiện nút giảm
+    decreaseButton.addEventListener('click', () => {
+        const currentValue = parseInt(quantityInput.value);
+        if (currentValue > 0) {
+            quantityInput.value = currentValue - 1;
+        }
+    });
+
+    // Xử lý sự kiện nút tăng
+    increaseButton.addEventListener('click', () => {
+        const currentValue = parseInt(quantityInput.value);
+        quantityInput.value = currentValue + 1;
+    });
+</script>
+
+</html>

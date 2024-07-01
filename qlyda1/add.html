@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quan ly</title>
+    <link rel="stylesheet" href="../admin/css/style.css">
+    <link rel="stylesheet" href="font-icon/themify-icons-font/themify-icons/themify-icons.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="boxtrai">
+            <div class="logo">
+                <img src="img/logo/logo (1).png" alt="">
+            </div>
+            <div class="danhsach">
+                <ul style="margin-bottom: 80px;">
+                    <li><a href="#" class="ti-home"> Trang chủ</a></li>
+                    <li><a href="index.html" class="ti-menu"> Quản lý danh mục</a></li>
+                    <li><a href="update.html" class="ti-layout-menu-v"> Quản lý sản phẩm</a></li>
+                    <li><a href="#" class="ti-user"> Quản lý tài khoản</a></li>
+                    <li><a href="#" class="ti-comment"> Quản lý bình luận</a></li>
+                    <li><a href="#" class="ti-server"> Thống kê</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="boxphaiadd">
+            <form class="formadd" action="" method="post" enctype="multipart/form-data">
+                <div class="tieude">
+                    <h2>Thêm Sản Phẩm</h2>
+                </div>
+                <div class="row mb20 form">
+                    <p>DANH MỤC</p><br>
+                    <select name="iddm">
+                        <option value="" selected>Tất cả</option>
+                        <option value="">Đồ uống</option>
+                    </select>
+                </div>
+                <div class="row mb20 form">
+                    <label for="">Tên Sản Phẩm</label><br><br>
+                    <input type="text" name="name">
+                </div>
+                <div class="row mb20 form">
+                    <label for="">Giá Sản Phẩm</label><br><br>
+                    <input type="number" name="price">
+                </div>
+                <div class="row mb20 formanh">
+                    <label for="">Ảnh Sản Phẩm</label><br><br>
+                    <input type="file" name="image">
+                </div>
+                <div class="row mb20 form">
+                    <label for="">Mô tả</label><br><br>
+                    <textarea name="des" cols="55" rows="8"></textarea>
+                </div>
+                <div class="cnang">
+                    <input type="submit" value="Thêm sản phẩm">
+                    <input type="reset" value="Nhập lại">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
